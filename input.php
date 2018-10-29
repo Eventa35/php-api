@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <title>Rizky Eventa Bahtiar</title>
-    <link rel="stylesheet" href="form.css">
   </head>
   <body>
     <form method="post" action="insert.php">

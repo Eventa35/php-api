@@ -6,7 +6,6 @@
 <html>
 <head>
 	<title>Data</title>
-	<link rel="stylesheet" href="php_api.css">
 </head>
 <body>
 	<a href="input.php" class="add">+Insert Data</a>
@@ -35,7 +34,7 @@
 			<td><?php echo $data['level']; ?></td>
 			<td><?php echo $data['fullname']; ?></td>
 			<td align="center">
-				<a href="edit.php?id=<?php echo $data['id']; ?>">Ubah</a>
+				<a href="ubah.php?id=<?php echo $data['id']; ?>">Ubah</a>
 				<a href="delete.php?id=<?php echo $data['id']; ?>"><span style="color: #C62828;">Hapus</span></a>
 			</td>
 		</tr>
