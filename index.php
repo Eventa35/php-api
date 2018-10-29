@@ -1,4 +1,4 @@
-<<?php
+<?php
 	$koneksi = mysqli_connect("localhost","root","","php-api");
  ?>
 
@@ -9,10 +9,10 @@
 	<link rel="stylesheet" href="php_api.css">
 </head>
 <body>
-	<a href="form.php" class="add">+ Tambah Data</a>
+	<a href="input.php" class="add">+Insert Data</a>
 	<table border="2" align="center" width="70%">
 		<tr>
-			<td colspan="6" style="background-color: #2196F3; color: #fff">
+			<td colspan="6" style="background-color: green; color: #fff">
 				<h3><center>DATA</center></h3>
 			</td>
 		</tr>
