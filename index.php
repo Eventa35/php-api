@@ -35,7 +35,7 @@
 			<td><?php echo $data['fullname']; ?></td>
 			<td align="center">
 				<a href="ubah.php?id=<?php echo $data['id']; ?>">Ubah</a>
-				<a href="delete.php?id=<?php echo $data['id']; ?>"><span style="color: #C62828;">Hapus</span></a>
+				<a href="hapus.php?id=<?php echo $data['id']; ?>"><span style="color: #C62828;">Hapus</span></a>
 			</td>
 		</tr>
 		<?php } ?>
